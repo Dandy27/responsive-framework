@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsiveframeworkflutter_app/pages/home/widgets/post_widget.dart';
 import 'package:responsiveframeworkflutter_app/pages/home/widgets/responsive_app_Bar.dart';
 import 'package:responsiveframeworkflutter_app/pages/home/widgets/stories_list.dart';
 
@@ -17,6 +18,9 @@ class HomePage extends StatelessWidget {
           child: ListView(
             children: [
               StoriesList(),
+              PostWidget(),
+              PostWidget(),
+              PostWidget(),
             ],
           ),
         ),
